@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color */
+
+:root {
+    --color-blue: #19438c;
+    --color-yellow: #ffb536;
+    --color-text: #4b4b4b;
+
+}
+
+.bg-5fbac7 {
+    background-color: rgba(95, 186, 199, 0.7);
+}
+
+.bg-ae9dc4 {
+    background-color: rgba(174, 157, 196, 0.7)
+}
+
+.bg-e9ba6d {
+    background-color: rgba(233, 186, 109, 0.7)
+}
+
+.bg-7a92aa {
+    background-color: rgba(122, 146, 170, 0.7)
+}
+
+.bg-e98b9f {
+    background-color: rgba(233, 139, 159, 0.8)
+}
+
+.bg-63a2c9 {
+    background-color: rgba(99, 162, 201, 0.7)
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+p,
+
+ul,
+h1,
+h2,
+h3,
+a,
+h4,
+h5 {
+    margin-bottom: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden !important;
+}
+
+.container {
+    max-width: 1396px;
+}
+
+.link_btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 20px;
+    border: 1px solid var(--color-yellow);
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.link_btn_sm {
+    padding: 4px 10px;
+    max-width: 120px;
+}
+
+.link_btn p {
+    margin-bottom: 0 !important;
+    margin-right: 10px;
+}
+
+.icon_btn {
+    font-size: 10px;
+}
+
+/* <div class="link_btn">
+<p>chi tiết</p>
+<i class="icon_btn fa-solid fa-chevron-right"></i>
+</div> */

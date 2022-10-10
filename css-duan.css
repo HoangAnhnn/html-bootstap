@@ -1,0 +1,39 @@
+.box-project {
+    width: 100%;
+
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 33.33333%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    display: block;
+}
+
+.project p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--color-blue);
+    padding: 16px 20px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+@media (max-width:768px) {
+
+
+    .project {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+}

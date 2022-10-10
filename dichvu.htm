@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dịch vụ</title>
+     <!-- link font chữ -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+     <!-- link thư viện -->
+     <link rel="stylesheet" href="./fontIcon/fontawesome-free-6.1.1-web/css/all.min.css"/>
+     <link rel="stylesheet" href="./bootstrap/bootstrap-4.6.1-dist/css/bootstrap.min.css"/>
+     <link rel="stylesheet" href="./slick/slick-1.8.1/slick/slick.css" />
+     <link rel="stylesheet" href="./slick/slick-1.8.1/slick/slick-theme.css" />
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+     <!-- swiper -->
+     <link
+   rel="stylesheet"
+   href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+ />
+     <!-- link css  -->
+     <link rel="stylesheet" href="./reset.css">
+     <link rel="stylesheet" href="./base.css" />
+     <link rel="stylesheet" href="./h-f-style.css">
+     <link rel="stylesheet" href="./banner-block.css">
+     <link rel="stylesheet" href="./css-dich-vu.css" />
+</head>
+<body>
+
+ <!-- header  -->
+ <header>
+  <div class="container-fluld ">
+    <div class="header_mobi">
+
+      <div class="header_top d-flex justify-content-between align-items-center">
+        <div class="list_logo d-flex align-items-center">
+          <a href="#" class="logo"><img src="./imgs/imgs-index/logo.png" alt="Tm hi-tech"/></a>
+          <div class="company">
+            <h1>Công ty cổ phần thiết bị công nghệ cao Tm</h1>
+            <p>Nhập khẩu và Phân Phối Thiết Bị Y Tế Cao Cấp Chính Hãng</p>
+          </div>
+        </div>
+        <div class="header_contact d-flex align-items-center flex-column">
+          <div class="header_languages d-lg-flex align-items-end  align-self-end  justify-content-end">
+            <div class="list_languages"> <img src="./imgs/imgs-index/img-VietNam.png" alt="tiếng việt"></div>
+            <div class="list_languages"> <img src="./imgs/imgs-index/img-england.png" alt="english"></div>
+          </div>
+          <div class="header_number-phone d-flex align-items-center">
+            <div class="img_contact d-flex d-lg-flex align-items-center" > 
+              <img src="./imgs/imgs-index/icon-phone.png" alt="">
+              <a href="#">0912.500.099</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="header_menu">
+          <i class="icon_menu fa-solid fa-bars"></i>
+              
+
+        </div> -->
+      </div>
+      <nav class="header_nav position-relative d-md-flex align-items-center justify-content-between">
+        <div id="toggle" class="header_menu ">
+          <i class="icon_menu fa-solid fa-bars"></i>
+          
+        </div>
+          <ul class="d-lg-flex align-items-center ">
+            <li><a class="item-nav" href="./index.html" title="Trang chủ"><span>Trang chủ</span></a></li>
+            <li><a class="item-nav" href="./gioi-thieu.html" title="Giới thiệu"><span>Giới thiệu</span></a></li>
+            <li class="have_sub"><a class="have_sub item-nav" href="#" title="Sản phẩm"><span>Sản phẩm</span>
+            
+            </a>
+              <div class="sub_nav position-absolute">
+                <div class="container-fluld">
+                  <div class="row">
+                  <div class="box_sub-nav col-xl-2 col-lg-3">
+                    <p>Chuẩn đoán hình ảnh</p>
+                    <ul>
+                      <li><a href="#" title="Máy chụp X-Quang">Máy chụp X-Quang</a></li>
+                      <li><a href="#" title="Máy siêu âm">Máy siêu âm</a></li>
+                      <li><a href="#" title="Hệ thống Máy nội soi">Hệ thống Máy nội soi</a></li>
+                      <li><a href="#" title="Hẹ thống nội soi cổ tử cung">Hẹ thống nội soi cổ tử cung</a></li>
+                    </ul>
+                    <p>xem tất cả
+                      <i class="fa-solid fa-caret-down"></i>
+                    </p>
+                  </div>
+                  <div class="box_sub-nav col-xl-2 col-lg-3">
+                    <p>Thăm dò chức năng</p>
+                    <ul>
+                      <li><a href="#" title="Máy chụp X-Quang">Máy đo điện tim</a></li>
+                      <li><a href="#" title="Máy siêu âm">Máy đo điện não</a></li>
+                      <li><a href="#" title="Hệ thống Máy nội soi">Máy đo chức năng hô hấp</a></li>
+                    </ul>
+                    <p>xem tất cả
+                      <i class="fa-solid fa-caret-down"></i>
+                    </p>
+                  </div>
+                  <div class="box_sub-nav col-xl-2 col-lg-3">
+                    <p>Cấp cứu hồi sức tích cực</p>
+                    <ul>
+                      <li><a href="#" title="Máy chụp X-Quang">Máy hỗ trợ thở</a></li>
+                      <li><a href="#" title="Máy siêu âm">Máy thở xách tay</a></li>
+                      <li><a href="#" title="Hệ thống Máy nội soi">Monitor theo dõi bệnh nhân</a></li>
+                      <li><a href="#" title="Hẹ thống nội soi cổ tử cung">Mấy theo dõi độ sâu gây mê và an thần</a></li>
+                    </ul>
+                    <p>xem tất cả
+                      <i class="fa-solid fa-caret-down"></i>
+                    </p>
+                  </div>
+                  <div class="box_sub-nav col-xl-2 col-lg-3">
+                    <p>Thiết bị phòng mổ</p>
+                    <ul>
+                      <li><a href="#" title="Máy chụp X-Quang">Máy gấy mê</a></li>
+                      <li><a href="#" title="Máy siêu âm">Kèm thở</a></li>
+                      <li><a href="#" title="Hệ thống Máy nội soi">Bàn mổ cơ-điện-thủy lực</a></li>
+                      <li><a href="#" title="Hẹ thống nội soi cổ tử cung">Đèn mổ LED ánh sáng lạnh</a></li>
+                      <li><a href="#" title="Hẹ thống nội soi cổ tử cung">Dao mổ điện</a></li>
+                      <li><a href="#" title="Hẹ thống nội soi cổ tử cung">Máy hút dịch</a></li>
+                    </ul>
+                    <p>xem tất cả
+                      <i class="fa-solid fa-caret-down"></i>
+                    </p>
+                  </div>
+                  <div class="box_sub-nav col-xl-2 col-lg-3">
+                    <p>Thiết bị nhi-Sản khỏa</p>
+                    <ul>
+                      <li><a href="#" title="Máy chụp X-Quang">lồng ấp trẻ sơ sinh</a></li>
+                      <li><a href="#" title="Máy siêu âm">Giường hồi sức và sưởi ấm trẻ sơ sinh</a></li>
+                      <li><a href="#" title="Hệ thống Máy nội soi">Đèn chiếu vàng da</a></li>
+                      <li><a href="#" title="Hẹ thống nội soi cổ tử cung">Nôi sơ sinh</a></li>
+                    </ul>
+                    <p>xem tất cả
+                      <i class="fa-solid fa-caret-down"></i>
+                    </p>
+                  </div>
+                  <div class="box_sub-nav col-xl-2 col-lg-3">
+                    <p>Thiết bị y tế khác</p>
+                    <ul>
+                      <li><a href="#" title="Máy chụp X-Quang">Thiết bị y tế gia đình</a></li>
+                      <li><a href="#" title="Máy siêu âm">Vật tư y tế, tiêu hao, hóa chất</a></li>
+                      <li><a href="#" title="Hệ thống Máy nội soi">Các dụng cụ phẫu thuật</a></li>
+                      <li><a href="#" title="Hẹ thống nội soi cổ tử cung">Thiết bị thú y</a></li>
+
+
+                    </ul>
+                    <p>xem tất cả
+                     
+
+                        <i class="icon_more fa-solid fa-caret-down"></i>
+                      
+                    </p>
+                  </div>
+                  </div>
+                  
+                </div>
+                  
+                  
+                  <img src="./imgs/img-menu/menu.png" alt="" class="img-sub">
+                </div>
+            </li>
+            <li><a class="item-nav" href="./duan.html" title="Dự án"><span>Dự án</span></a></li>
+            <li><a class="item-nav" href="./dichvu.htm" title="Dịch vụ"><span>Dịch vụ</span></a></li>
+            <li class="have_sub-nav-new position-relative"><a class="item-nav" href="./Tintuc.html" title="Tin Tức"><span>Tin Tức</span></a>
+              <div class="sub_nav-new">
+                  <ul>
+                    <li><a href="#">Tin tức Y tế</a></li>
+                    <li><a href="#"> Tin tức nội bộ</a></li>
+                  </ul>
+              </div>
+            </li>
+            <li><a class="item-nav" href="#" title="Tuyển dụng"><span>Tuyển dụng</span></a></li>
+            <li><a class="item-nav" href="./lienhe.html" title="Liên hệ"><span>Liên hệ</span></a></li>
+          </ul>
+
+          <div class="nav_search position-relative">
+            <input class="box_search" type="text" placeholder="Nhập từ Khóa ..." name="" id="">
+            <div class="search-box position-absolute"><i class="icon_search fa-solid fa-magnifying-glass"></i></div>
+          </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- end header  -->
+
+      <!-- container  -->
+      <div class="banner">
+        <div class="container-fluld">
+          <div class=" banner_box">
+              <div class="banner_list">
+                <img src="./imgs/imgs-dich vu/dichvu.png" alt="" class="banner_img">
+              </div>
+              <div class="banner_list">
+                <img src="./imgs/imgs-gioithieu/gioi-thieu1.png" alt="" class="banner_img">
+              </div>
+              
+          </div>
+        </div>
+      </div>
+
+      <div class="nav_noti">
+        <span>Trang chủ > </span>
+        
+        <span>Dịch vụ</span>
+      </div>
+      <!-- end noti -->
+      <section>
+          <div class="container-fluld">
+              <div class="row row-no-gutters">
+                  <div class="col-lg-9">
+                    <div class="content">
+                      <div class="content-header d-flex align-items-center">
+                        <img src="./imgs/imgs-gioithieu/icon-logo.png" alt="">
+                        <h2 > Dịch vụ</h2>
+                      </div>
+
+                      <div class="content_box">
+                        <h4> Với đội ngũ chuyên gia có kinh nghiệm hơn 10 năm tham gia các dự án mua sắm trang thiết bị Y tế, TM Hitech đảm bảo sẽ đưa ra những tư ván hữu ích cho dự án của bạn. Chúng tôi cam kết tư vấn miễn phí trong toàn bộ dự án với mục tiêu tạo sự tin tưởng với mối liên hệ tốt với khách hàng.</h4>
+                        <p class="content-have-space">Trong bối cảnh thị trường rộng mở như hiện nay, có rất nhiều dòng thiết bị y tế với giá cả và chất lượng khác nhau để khách hàng lựa chọn. Điều này đôi khi làm khó cho các quyết định đầu tư của khách hàng</p>
+                        <p class="content-have-space">Kinh nghiệm lâu năm trong ngành thiết bị y tế, TM Hitech tự tin có thế hỗ trợ khách hàng thiết kế tổng thế thế dự án, xây dựng cấu hình chi tiết các dòng thiết bị sử dụng cho bệnh viện hauy phòng khám các bạn</p>
+                        
+                        <div class="content-img">
+                                <img src="./imgs/imgs-dich vu/img1.png" alt="">
+                        </div>
+
+                        <h3> Dịch vụ trong bảo hành</h3>
+                        <p>Tất cả các thiết bị Công ty cung cấp đều được bảo hành đảm bảo theo đúng tiêu chuẩn và cam kết của nhà sản xuất. Đội ngũ kỹ sư của Công ty giàu kinh nghiệm được cử đi tập huấn và đào tạo hàng năm ở nước ngoài theo các khóa tập huấn của Hãng đại diện, nhà sản xuất... chúng tôi hi vọng đáp ứng được yêu cầu của quý khách hàng.</p>
+                        <p class="content-have-space">Bất cứ lúc nào trong thời gian ngắn nhất, nhân viên kỹ thuật sẽ có mặt theo yêu cầu của khách hàng để chỉ dẫn thêm những vấn đề liên quan đến kỹ thuật của máy hoặc xử lý những sự cố bất thường</p>
+                        
+                        <h3>Dịch vụ sau bảo hành</h3>
+
+                        <p> kiểm tra định kỳ lâu dài cho tất cả các thiết bị do Công ty cung cấp</p>
+                        <p>Sẵn sàng ký hợp đồng bảo trì nếu Quý khách có yêu cầu, giá cả phù hợp với giá hiện hành trên thị trường.</p>
+                        <p>Với kinh nghiệm & uy tín của mình, TM Hitech luôn cam kết hoàn thành tốt các yêu cầu về cung cấp, lắp đặt & hướng dẫn, tư vấn cho các khách hàng.</p>
+                    
+                    
+                    
+                    </div>
+
+
+                    </div>
+
+
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="block">
+                      <h3>sản phẩm nổi bật</h3>
+                      <div class="bock_list d-flex flex-column">
+                        <div class="bock_item d-flex align-items-center">
+                          <div class="bock-img">
+                            <img src="./imgs/imgs-gioithieu/tb1.png" alt="">
+                          </div>
+                          <a href="#" class="block-text ">
+                            <h4>Chuẩn đoán hình ảnh</h4>
+                              <div class="show-more d-flex align-items-center">
+                                <i class="icon_more fa-solid fa-caret-right"></i>
+                                <span>Xem chi tiết</span>
+                              </div>
+                          </a>
+                        </div>
+                        <span><hr></span>
+                        <div class="bock_item d-flex align-items-center">
+                          <div class="bock-img">
+                            <img src="./imgs/imgs-gioithieu/tb-2.png" alt="">
+                          </div>
+                          <a href="#" class="block-text ">
+                            <h4>Chuẩn đoán hình ảnh</h4>
+                              <div class="show-more d-flex align-items-center">
+                                <i class="icon_more fa-solid fa-caret-right"></i>
+                                <span>Xem chi tiết</span>
+                              </div>
+                          </a>
+                        </div>
+                        <span><hr></span>
+                        <div class="bock_item d-flex align-items-center">
+                          <div class="bock-img">
+                            <img src="./imgs/imgs-gioithieu/tb-3.png" alt="">
+                          </div>
+                          <a href="#" class="block-text ">
+                            <h4>Chuẩn đoán hình ảnh</h4>
+                              <div class="show-more d-flex align-items-center">
+                                <i class="icon_more fa-solid fa-caret-right"></i>
+                                <span>Xem chi tiết</span>
+                              </div>
+                          </a>
+                        </div>
+                        <span><hr></span>
+                        <div class="bock_item d-flex align-items-center">
+                          <div class="bock-img">
+                            <img src="./imgs/imgs-gioithieu/tb-4.png" alt="">
+                          </div>
+                          <a href="#" class="block-text ">
+                            <h4>Chuẩn đoán hình ảnh</h4>
+                              <div class="show-more d-flex align-items-center">
+                                <i class="icon_more fa-solid fa-caret-right"></i>
+                                <span>Xem chi tiết</span>
+                              </div>
+                          </a>
+                        </div>
+                        <span><hr></span>
+                        <div class="bock_item d-flex align-items-center">
+                          <div class="bock-img">
+                            <img src="./imgs/imgs-gioithieu/tb-5.png" alt="">
+                          </div>
+                          <a href="#" class="block-text ">
+                            <h4>Chuẩn đoán hình ảnh</h4>
+                              <div class="show-more d-flex align-items-center">
+                                <i class="icon_more fa-solid fa-caret-right"></i>
+                                <span>Xem chi tiết</span>
+                              </div>
+                          </a>
+                        </div>
+                        <span><hr></span>
+                        <div class="bock_item d-flex align-items-center">
+                          <div class="bock-img">
+                            <img src="./imgs/imgs-gioithieu/tb-6.png" alt="">
+                          </div>
+                          <a href="#" class="block-text ">
+                            <h4>Chuẩn đoán hình ảnh</h4>
+                              <div class="show-more d-flex align-items-center">
+                                <i class="icon_more fa-solid fa-caret-right"></i>
+                                <span>Xem chi tiết</span>
+                              </div>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="block">
+                      <h3>tin nổi bật</h3>
+                      <div class="bock_list d-flex flex-column">
+
+                        <div class="bock_item d-flex align-items-center">
+                          <div class="bock-img">
+                            <img class="bock-img-full" src="./imgs/imgs-gioithieu/img1.png" alt="">
+                          </div>
+                          <a href="#" class="block-text ">
+                            <p>Khi bị nhồi máu cơ tim, bạn chỉ có 10 giây để cứu lấy mình</p>
+                              <div class="show-more d-flex align-items-center">
+                                <img src="./imgs/imgs-gioithieu/clock.png" alt="">
+                                <span>23-02-2018</span>
+                              </div>
+                          </a>
+                        </div>
+                        <span><hr></span>
+                        <div class="bock_item d-flex align-items-center">
+                          <div class="bock-img">
+                            <img class="bock-img-full" src="./imgs/imgs-gioithieu/img2.png" alt="">
+                          </div>
+                          <a href="#" class="block-text ">
+                            <p>Khi bị nhồi máu cơ tim, bạn chỉ có 10 giây để cứu lấy mình</p>
+                              <div class="show-more d-flex align-items-center">
+                                <img src="./imgs/imgs-gioithieu/clock.png" alt="">
+                                <span>23-02-2018</span>
+                              </div>
+                          </a>
+                        </div>
+                        <span><hr></span>
+                       
+                        <div class="bock_item d-flex align-items-center">
+                          <div class="bock-img">
+                            <img class="bock-img-full" src="./imgs/imgs-gioithieu/img3.png" alt="">
+                          </div>
+                          <a href="#" class="block-text ">
+                            <p>Khi bị nhồi máu cơ tim, bạn chỉ có 10 giây để cứu lấy mình</p>
+                              <div class="show-more d-flex align-items-center">
+                                <img src="./imgs/imgs-gioithieu/clock.png" alt="">
+                                <span>23-02-2018</span>
+                              </div>
+                          </a>
+                        </div>
+                       
+                       
+                          
+                          
+  
+
+                      </div>
+                      
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+     <!-- footer  -->
+    <footer class="footer">
+      <div class="container-fluld">
+        <div class="footer-top">
+            <div class="row">
+                      <div class="col-md-9 col-sm-12">
+                          <div class="footer_info">
+                            <h2 class="footer_name">Công Ty cổ phần thiết bị công nghệ cao tm. <br> tm hi-tetch jsc.</h2>
+                          </div>
+                          <div class="container-fluld">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="list_info">
+                                  <div class="location_footer d-flex align-items-center">
+                                    <i class="icon_location fa-solid fa-location-dot"></i>
+                                    <h3>Trụ sở:</h3>
+                                  </div>
+                                  <ul>
+                                    <li><a href="#">12B/2, 78 Hồng Hà, Quận Hoàn Kiếm Hà Nội, Việt Nam</a></li>
+                                    <li><a href="#">tel:(04) 3 123 533</a></li>
+                                    <li><a href="#">Fax:(04) 3 123 533</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="list_info">
+                                  <div class="location_footer d-flex align-items-center">
+                                    <i class="icon_location fa-solid fa-location-dot"></i>
+                                    <h3>VPĐD:</h3>
+                                  </div>
+                                  <ul>
+                                    <li><a href="#">42 Phương Mai, Đống Da, Hà Nội</a></li>
+                                    <li><a href="#">tel:(04) 3 123 533</a></li>
+                                    <li><a href="#">Fax:(04) 3 123 533</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="list_info border-right-0">
+                                  <div class="location_footer d-flex align-items-center">
+                                    <i class="icon_location fa-solid fa-location-dot"></i>
+                                    <h3>Chi Nhánh Thành Phố Hồ Chí Minh:</h3>
+                                  </div>
+                                  <ul>
+                                    <li><a href="#">08.04 Lô A, chung cư Bầu Cát 2, phường 1 Quận. Tân Bình, TP Hồ Chí Minh</a></li>
+                                    <li><a href="#">tel:(04) 3 123 533</a></li>
+                                    <li><a href="#">Fax:(04) 3 123 533</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                          <div class="social-face">
+                            <h3>Facebook</h3>
+                            <img class="img-face" src="./imgs/imgs-index/img-face.png" alt="facebook">
+                          </div>
+                        </div>
+                      </div>
+        </div>
+        <div class="footer-botom d-lg-flex align-items-center justify-content-between"> 
+          <ul>
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Sản phẩm</a></li>
+            <li><a href="">Dự án</a></li>
+            <li><a href="">Dịch vụ</a></li>
+            <li><a href="">Tin tức</a></li>
+            <li><a href="">Tuyển dụng</a></li>
+            <li><a href="">Liên hệ</a></li>
+          </ul>
+          <div class="socials">
+            <a href="#" class="list_socials">
+              <i class="icon-social fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="icon_social">
+              <i class="icon-social fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="icon_social">
+              <i class="icon-social fa-brands fa-google-plus-g"></i>
+            </a>
+            <a href="#" class="icon_social">
+              <i class="icon-social fa-brands fa-youtube"></i>
+            </a>
+            <a href="#" class="icon_social">
+              <i class="icon-social fa-solid fa-chevron-up"></i>
+            </a>
+
+          </div>
+        </div>
+        <p class="desginer">Desgin by @Hoàng Anh - Devmaster Academy</p>
+
+       
+        </div>
+      </div>
+    </footer>
+    <!-- end-footer  -->
+
+     <!-- scrip link -->
+     <script src="./jquery/jquery-3.6.0.min.js"></script>
+     <script src="./fontIcon/fontawesome-free-6.1.1-web/js/all.min.js"></script>
+     <script src="./bootstrap/bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+     <script src="./slick/slick-1.8.1/slick/slick.min.js"></script>
+     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+     <script src="./js.js"></script>
+    
+</body>
+</html>

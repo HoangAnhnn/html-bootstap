@@ -1,0 +1,28 @@
+.content_box h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.content_box .content-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.content_box .content-img img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.content_box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content_box p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
